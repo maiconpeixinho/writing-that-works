@@ -1,0 +1,14 @@
+interface:
+  display_name: Writing That Works
+  short_description: Clear reasoning and faithful writing, by default
+  default_prompt: Use $writing-that-works to make this answer clear, well supported,
+    and useful without losing meaning.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
